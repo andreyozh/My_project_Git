@@ -1,0 +1,19 @@
+.container {
+  border: 5px solid coral;
+}
+.block-row {
+  display: flex;
+  border: 5px solid cornflowerblue;
+}
+.block-column {
+  border: 5px solid cyan;
+}
+.block-column__item {
+  border: 5px solid chartreuse;
+}
+.red {
+  color: red;
+}
+.block-column__ {
+  color: green;
+}
