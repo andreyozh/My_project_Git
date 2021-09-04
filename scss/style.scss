@@ -1,0 +1,27 @@
+body {
+	font-size: 5px;
+}
+.сollective-title {
+	text-align: center;
+}
+
+.collective-row {
+	display: flex;
+	/* justify-content: space-between; */
+	flex-wrap: wrap;
+}
+.collective-column {
+	max-width: 100px;
+}
+.elem-collective {
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+.elem-collective__text {
+	text-align: justify;
+}
+img {
+	height: 50px;
+	border-radius: 50%;
+}

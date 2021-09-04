@@ -1,35 +1,26 @@
-@charset "UTF-8";
 body {
   font-size: 5px;
 }
-
 .сollective-title {
   text-align: center;
 }
 
 .collective-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /* justify-content: space-between; */
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .collective-column {
   max-width: 100px;
 }
-
 .elem-collective {
   display: block;
   padding: 10px;
   text-align: center;
 }
-
 .elem-collective__text {
   text-align: justify;
 }
-
 img {
   height: 50px;
   border-radius: 50%;
