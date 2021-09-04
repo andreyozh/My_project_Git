@@ -1,19 +1,26 @@
-.container {
-  border: 5px solid coral;
+body {
+  font-size: 5px;
 }
-.block-row {
+.сollective-title {
+  text-align: center;
+}
+.collective-row {
   display: flex;
-  border: 5px solid cornflowerblue;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
 }
-.block-column {
-  border: 5px solid cyan;
+.collective-column {
+  max-width: 100px;
 }
-.block-column__item {
-  border: 5px solid chartreuse;
+.elem-collective {
+  display: block;
+  padding: 10px;
+  text-align: center;
 }
-.red {
-  color: red;
+.elem-collective__text {
+  text-align: justify;
 }
-.block-column__ {
-  color: green;
+img {
+  height: 50px;
+  border-radius: 50%;
 }
